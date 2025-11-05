@@ -5,7 +5,7 @@ import threading
 import asyncio
 
 # 设置页面
-st.set_page_config(page_title="Honey-Girl", layout="wide")
+st.set_page_config(page_title="civida", layout="wide")
 
 # 全局日志变量（线程安全）
 log_buffer = []
@@ -16,7 +16,7 @@ if "running" not in st.session_state:
 if "auto_started" not in st.session_state:
     st.session_state.auto_started = False  # 控制是否已自动执行完
 
-st.title("🌐 Honey-Girl")
+st.title("🌐 civida")
 
 # 环境变量
 envs = {
